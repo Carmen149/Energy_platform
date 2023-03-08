@@ -1,0 +1,81 @@
+.navbar-store {
+  height: 10vh;
+  background: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  width: 80vw;
+  justify-content: flex-end;
+  margin-right: 2rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  height: 12vh;
+  padding: 0.5 rem;
+  margin-top: 1rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3rem;
+  margin-right: 1.5rem;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+
+.nav-item a:hover {
+  background: rgb(0, 212, 212);
+}
+.item-icon {
+  display: inline-block;
+  margin-left: 0.7rem;
+}
+.btn-store {
+  border: none;
+  background: transparent;
+  padding: 6px 16px;
+  font-size: 1.1rem;
+  color: white;
+  background: rgb(0, 212, 212);
+  border-radius: 5px;
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+}
+
+.btn-store:hover-store {
+  color: rgb(0, 212, 212);
+  background: white;
+}
+.notif {
+  border-radius: 50%;
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
+  align-items: center !important;
+  justify-content: center !important;
+  display: flex !important;
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 11rem;
+  top: 0.8rem;
+}
